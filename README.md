@@ -7,9 +7,9 @@
 
 Python has many functionalities, one of them is to **read a text file**. And by read I mean **go over each character and possibly do something** with them. 
 
-So this essentially what the **library pathli**b and its method `Path` enable. Now for the reading part, it is the job of the method `read_text()`. Very straightforward. 
+So this is essentially what the **library pathlib** and its method `Path` enable. Now for the reading part, it is the job of the method `read_text()`. Very straightforward. 
 
-We, Humans, appreciate structures and neatly put things. So lines are the basic unit for a **well structured text**. The method `splitlines()` helps doing that.  
+We, Humans, appreciate structures and neatly put things. So lines are the basic unit for a **well structured text**. The method `splitlines()` helps getting the **text structured as lines**.  
 And then we have `lstrip()` and `rstrip()` and also just `strip()` that will remove blank spaces depending on where they are as well as blank lines. A little bit like **special features of a text hoover**. 
 
 ---
